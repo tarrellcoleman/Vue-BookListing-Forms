@@ -5,7 +5,7 @@
       <book-item v-for='book in books' :key='book.id' :book='book'></book-item>
     </ul>
     <hr>
-    <h2>Filered Books by Ownership</h2>
+    <h2>Filtered Books by Ownership</h2>
     <select v-model="holding">
       <option v-for="filter in filters"> {{filter}}</option>
     </select>
